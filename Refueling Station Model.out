@@ -1,0 +1,1704 @@
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 1 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 15.566928 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 .85469     (Insuf)    .03497     1.5312         50    
+Server 3.TotalTimePerEntity                 1.1003     (Insuf)    .01947     2.4623         50    
+Server 2.TotalTimePerEntity                 7.6690     (Insuf)    .06414     14.954         50    
+Server 1.TotalCostPerEntity                 2.4132     (Insuf)    .50171     7.7977         50    
+Server 3.TotalCostPerEntity                 3.1077     (Insuf)    .85581     11.788         50    
+Server 2.TotalCostPerEntity                 15.566     (Insuf)    1.6841     74.893         50    
+Server 1.VATimePerEntity                    .04826     (Insuf)    .01003     .15595         50    
+Server 3.VATimePerEntity                    .06215     (Insuf)    .01712     .23578         50    
+Server 2.VATimePerEntity                    .31134     (Insuf)    .03368     1.4978         50    
+Server 1.VACostPerEntity                    2.4132     (Insuf)    .50171     7.7977         50    
+Server 3.VACostPerEntity                    3.1077     (Insuf)    .85581     11.788         50    
+Server 2.VACostPerEntity                    15.566     (Insuf)    1.6841     74.893         50    
+Server 1.WaitTimePerEntity                  .80642     (Insuf)    .00000     1.4863         50    
+Server 3.WaitTimePerEntity                  1.0382     (Insuf)    .00000     2.3177         50    
+Server 2.WaitTimePerEntity                  7.3577     (Insuf)    .00000     14.704         50    
+LPG.VATime                                  .31134     (Insuf)    .03368     1.4978         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                7.3577     (Insuf)    .00000     14.704         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               7.6690     (Insuf)    .06414     14.954         50    
+LPG.VACost                                  15.566     (Insuf)    1.6841     74.893         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               15.566     (Insuf)    1.6841     74.893         50    
+Petrol.VATime                               .04826     (Insuf)    .01003     .15595         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .80642     (Insuf)    .00000     1.4863         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            .85469     (Insuf)    .03497     1.5312         50    
+Petrol.VACost                               2.4132     (Insuf)    .50171     7.7977         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.4132     (Insuf)    .50171     7.7977         50    
+CNG.VATime                                  .06215     (Insuf)    .01712     .23578         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.0382     (Insuf)    .00000     2.3177         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.1003     (Insuf)    .01947     2.4623         50    
+CNG.VACost                                  3.1077     (Insuf)    .85581     11.788         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               3.1077     (Insuf)    .85581     11.788         50    
+Server 1.Queue.WaitingTime                  .80642     (Insuf)    .00000     1.4863         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.0382     (Insuf)    .00000     2.3177         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  7.3577     (Insuf)    .00000     14.704         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     24.632     (Insuf)    .00000     49.000     .00000    
+Petrol.WIP                                  2.7452     (Insuf)    .00000     33.000     .00000    
+CNG.WIP                                     3.5343     (Insuf)    .00000     37.000     .00000    
+Operator 1.NumberBusy                       .15502     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .15502     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .19964     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .19964     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                2.5901     (Insuf)    .00000     32.000     .00000    
+Server 3.Queue.NumberInQueue                3.3346     (Insuf)    .00000     36.000     .00000    
+Server 2.Queue.NumberInQueue                23.632     (Insuf)    .00000     48.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      120.66    
+Server 3 Accum VA Cost                      155.38    
+Server 2 Accum VA Cost                      778.34    
+Server 1 Accum VA Time                      2.4132    
+Server 3 Accum VA Time                      3.1077    
+Server 2 Accum VA Time                      15.566    
+Server 1 Total Accum Time                   42.734    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   55.018    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   383.45    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    40.321    
+Server 3 Accum Wait Time                    51.910    
+Server 2 Accum Wait Time                    367.88    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   120.66    
+Server 3 Total Accum Cost                   155.38    
+Server 2 Total Accum Cost                   778.34    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .15502    
+Operator 1.BusyCost                         120.66    
+Operator 1.IdleCost                         394.61    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .19964    
+Operator 3.BusyCost                         155.38    
+Operator 3.IdleCost                         373.77    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         778.34    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         1054.3    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      1054.3    
+All Resources.BusyCost                      1054.3    
+All Resources.IdleCost                      768.38    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1822.7    
+System.TotalCost                            1822.7    
+System.NumberOut                            150.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 2 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 15.146685 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 .91725     (Insuf)    .06113     1.6477         50    
+Server 3.TotalTimePerEntity                 1.3255     (Insuf)    .04277     2.8978         50    
+Server 2.TotalTimePerEntity                 7.6297     (Insuf)    .52194     14.755         50    
+Server 1.TotalCostPerEntity                 2.3684     (Insuf)    .61737     6.1833         50    
+Server 3.TotalCostPerEntity                 3.4699     (Insuf)    .92345     10.386         50    
+Server 2.TotalCostPerEntity                 15.146     (Insuf)    1.7303     55.617         50    
+Server 1.VATimePerEntity                    .04737     (Insuf)    .01235     .12367         50    
+Server 3.VATimePerEntity                    .06940     (Insuf)    .01847     .20772         50    
+Server 2.VATimePerEntity                    .30293     (Insuf)    .03461     1.1123         50    
+Server 1.VACostPerEntity                    2.3684     (Insuf)    .61737     6.1833         50    
+Server 3.VACostPerEntity                    3.4699     (Insuf)    .92345     10.386         50    
+Server 2.VACostPerEntity                    15.146     (Insuf)    1.7303     55.617         50    
+Server 1.WaitTimePerEntity                  .86988     (Insuf)    .00000     1.6238         50    
+Server 3.WaitTimePerEntity                  1.2561     (Insuf)    .00000     2.7843         50    
+Server 2.WaitTimePerEntity                  7.3268     (Insuf)    .00000     14.548         50    
+LPG.VATime                                  .30293     (Insuf)    .03461     1.1123         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                7.3268     (Insuf)    .00000     14.548         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               7.6297     (Insuf)    .52194     14.755         50    
+LPG.VACost                                  15.146     (Insuf)    1.7303     55.617         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               15.146     (Insuf)    1.7303     55.617         50    
+Petrol.VATime                               .04737     (Insuf)    .01235     .12367         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .86988     (Insuf)    .00000     1.6238         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            .91725     (Insuf)    .06113     1.6477         50    
+Petrol.VACost                               2.3684     (Insuf)    .61737     6.1833         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.3684     (Insuf)    .61737     6.1833         50    
+CNG.VATime                                  .06940     (Insuf)    .01847     .20772         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.2561     (Insuf)    .00000     2.7843         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.3255     (Insuf)    .04277     2.8978         50    
+CNG.VACost                                  3.4699     (Insuf)    .92345     10.386         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               3.4699     (Insuf)    .92345     10.386         50    
+Server 1.Queue.WaitingTime                  .86988     (Insuf)    .00000     1.6238         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.2561     (Insuf)    .00000     2.7843         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  7.3268     (Insuf)    .00000     14.548         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     25.186     (Insuf)    .00000     50.000     .00000    
+Petrol.WIP                                  3.0278     (Insuf)    .00000     35.000     .00000    
+CNG.WIP                                     4.3757     (Insuf)    .00000     40.000     .00000    
+Operator 1.NumberBusy                       .15637     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .15637     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .22909     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .22909     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                2.8715     (Insuf)    .00000     34.000     .00000    
+Server 3.Queue.NumberInQueue                4.1466     (Insuf)    .00000     39.000     .00000    
+Server 2.Queue.NumberInQueue                24.186     (Insuf)    .00000     49.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      118.42    
+Server 3 Accum VA Cost                      173.49    
+Server 2 Accum VA Cost                      757.33    
+Server 1 Accum VA Time                      2.3684    
+Server 3 Accum VA Time                      3.4699    
+Server 2 Accum VA Time                      15.146    
+Server 1 Total Accum Time                   45.862    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   66.277    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   381.48    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    43.494    
+Server 3 Accum Wait Time                    62.807    
+Server 2 Accum Wait Time                    366.34    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   118.42    
+Server 3 Total Accum Cost                   173.49    
+Server 2 Total Accum Cost                   757.33    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .15637    
+Operator 1.BusyCost                         118.42    
+Operator 1.IdleCost                         383.34    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .22909    
+Operator 3.BusyCost                         173.49    
+Operator 3.IdleCost                         350.30    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         757.33    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         1049.2    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      1049.2    
+All Resources.BusyCost                      1049.2    
+All Resources.IdleCost                      733.64    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1782.9    
+System.TotalCost                            1782.9    
+System.NumberOut                            150.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 3 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 11.395458 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 .91664     (Insuf)    .01054     1.9272         50    
+Server 3.TotalTimePerEntity                 1.3318     (Insuf)    .05003     2.4312         50    
+Server 2.TotalTimePerEntity                 5.6701     (Insuf)    .26154     10.863         50    
+Server 1.TotalCostPerEntity                 2.2887     (Insuf)    .52679     6.5722         50    
+Server 3.TotalCostPerEntity                 3.1130     (Insuf)    .85755     9.3813         50    
+Server 2.TotalCostPerEntity                 11.395     (Insuf)    1.7454     49.056         50    
+Server 1.VATimePerEntity                    .04578     (Insuf)    .01054     .13145         50    
+Server 3.VATimePerEntity                    .06226     (Insuf)    .01715     .18763         50    
+Server 2.VATimePerEntity                    .22791     (Insuf)    .03491     .98112         50    
+Server 1.VACostPerEntity                    2.2887     (Insuf)    .52679     6.5722         50    
+Server 3.VACostPerEntity                    3.1130     (Insuf)    .85755     9.3813         50    
+Server 2.VACostPerEntity                    11.395     (Insuf)    1.7454     49.056         50    
+Server 1.WaitTimePerEntity                  .87087     (Insuf)    .00000     1.9093         50    
+Server 3.WaitTimePerEntity                  1.2696     (Insuf)    .00000     2.4130         50    
+Server 2.WaitTimePerEntity                  5.4422     (Insuf)    .00000     10.598         50    
+LPG.VATime                                  .22791     (Insuf)    .03491     .98112         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                5.4422     (Insuf)    .00000     10.598         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               5.6701     (Insuf)    .26154     10.863         50    
+LPG.VACost                                  11.395     (Insuf)    1.7454     49.056         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               11.395     (Insuf)    1.7454     49.056         50    
+Petrol.VATime                               .04578     (Insuf)    .01054     .13145         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .87087     (Insuf)    .00000     1.9093         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            .91664     (Insuf)    .01054     1.9272         50    
+Petrol.VACost                               2.2887     (Insuf)    .52679     6.5722         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.2887     (Insuf)    .52679     6.5722         50    
+CNG.VATime                                  .06226     (Insuf)    .01715     .18763         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.2696     (Insuf)    .00000     2.4130         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.3318     (Insuf)    .05003     2.4312         50    
+CNG.VACost                                  3.1130     (Insuf)    .85755     9.3813         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               3.1130     (Insuf)    .85755     9.3813         50    
+Server 1.Queue.WaitingTime                  .87087     (Insuf)    .00000     1.9093         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.2696     (Insuf)    .00000     2.4130         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  5.4422     (Insuf)    .00000     10.598         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     24.878     (Insuf)    .00000     47.000     .00000    
+Petrol.WIP                                  4.0219     (Insuf)    .00000     40.000     .00000    
+CNG.WIP                                     5.8439     (Insuf)    .00000     40.000     .00000    
+Operator 1.NumberBusy                       .20085     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .20085     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .27318     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .27318     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                3.8211     (Insuf)    .00000     39.000     .00000    
+Server 3.Queue.NumberInQueue                5.5707     (Insuf)    .00000     39.000     .00000    
+Server 2.Queue.NumberInQueue                23.878     (Insuf)    .00000     46.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      114.43    
+Server 3 Accum VA Cost                      155.65    
+Server 2 Accum VA Cost                      569.77    
+Server 1 Accum VA Time                      2.2887    
+Server 3 Accum VA Time                      3.1130    
+Server 2 Accum VA Time                      11.395    
+Server 1 Total Accum Time                   45.832    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   66.594    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   283.50    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    43.543    
+Server 3 Accum Wait Time                    63.481    
+Server 2 Accum Wait Time                    272.11    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   114.43    
+Server 3 Total Accum Cost                   155.65    
+Server 2 Total Accum Cost                   569.77    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .20085    
+Operator 1.BusyCost                         114.43    
+Operator 1.IdleCost                         273.20    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .27318    
+Operator 3.BusyCost                         155.65    
+Operator 3.IdleCost                         248.47    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         569.77    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         839.86    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      839.86    
+All Resources.BusyCost                      839.86    
+All Resources.IdleCost                      521.67    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1361.5    
+System.TotalCost                            1361.5    
+System.NumberOut                            150.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 4 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 11.94284 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 1.1412     (Insuf)    .16140     2.0942         50    
+Server 3.TotalTimePerEntity                 1.2456     (Insuf)    .10349     2.4233         50    
+Server 2.TotalTimePerEntity                 6.6359     (Insuf)    .75117     11.471         50    
+Server 1.TotalCostPerEntity                 2.5685     (Insuf)    .85825     8.0702         50    
+Server 3.TotalCostPerEntity                 2.9867     (Insuf)    .85014     8.6796         50    
+Server 2.TotalCostPerEntity                 11.942     (Insuf)    1.7199     39.312         50    
+Server 1.VATimePerEntity                    .05137     (Insuf)    .01716     .16140         50    
+Server 3.VATimePerEntity                    .05974     (Insuf)    .01700     .17359         50    
+Server 2.VATimePerEntity                    .23886     (Insuf)    .03440     .78626         50    
+Server 1.VACostPerEntity                    2.5685     (Insuf)    .85825     8.0702         50    
+Server 3.VACostPerEntity                    2.9867     (Insuf)    .85014     8.6796         50    
+Server 2.VACostPerEntity                    11.942     (Insuf)    1.7199     39.312         50    
+Server 1.WaitTimePerEntity                  1.0898     (Insuf)    .00000     2.0737         50    
+Server 3.WaitTimePerEntity                  1.1858     (Insuf)    .00000     2.3275         50    
+Server 2.WaitTimePerEntity                  6.3970     (Insuf)    .00000     11.366         50    
+LPG.VATime                                  .23886     (Insuf)    .03440     .78626         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                6.3970     (Insuf)    .00000     11.366         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               6.6359     (Insuf)    .75117     11.471         50    
+LPG.VACost                                  11.942     (Insuf)    1.7199     39.312         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               11.942     (Insuf)    1.7199     39.312         50    
+Petrol.VATime                               .05137     (Insuf)    .01716     .16140         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             1.0898     (Insuf)    .00000     2.0737         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            1.1412     (Insuf)    .16140     2.0942         50    
+Petrol.VACost                               2.5685     (Insuf)    .85825     8.0702         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.5685     (Insuf)    .85825     8.0702         50    
+CNG.VATime                                  .05974     (Insuf)    .01700     .17359         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.1858     (Insuf)    .00000     2.3275         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.2456     (Insuf)    .10349     2.4233         50    
+CNG.VACost                                  2.9867     (Insuf)    .85014     8.6796         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               2.9867     (Insuf)    .85014     8.6796         50    
+Server 1.Queue.WaitingTime                  1.0898     (Insuf)    .00000     2.0737         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.1858     (Insuf)    .00000     2.3275         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  6.3970     (Insuf)    .00000     11.366         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     27.782     (Insuf)    .00000     50.000     .00000    
+Petrol.WIP                                  4.7778     (Insuf)    .00000     43.000     .00000    
+CNG.WIP                                     5.2149     (Insuf)    .00000     40.000     .00000    
+Operator 1.NumberBusy                       .21507     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .21507     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .25009     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .25009     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                4.5627     (Insuf)    .00000     42.000     .00000    
+Server 3.Queue.NumberInQueue                4.9648     (Insuf)    .00000     39.000     .00000    
+Server 2.Queue.NumberInQueue                26.782     (Insuf)    .00000     49.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      128.42    
+Server 3 Accum VA Cost                      149.33    
+Server 2 Accum VA Cost                      597.14    
+Server 1 Accum VA Time                      2.5685    
+Server 3 Accum VA Time                      2.9867    
+Server 2 Accum VA Time                      11.942    
+Server 1 Total Accum Time                   57.061    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   62.281    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   331.79    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    54.492    
+Server 3 Accum Wait Time                    59.294    
+Server 2 Accum Wait Time                    319.85    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   128.42    
+Server 3 Total Accum Cost                   149.33    
+Server 2 Total Accum Cost                   597.14    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .21507    
+Operator 1.BusyCost                         128.42    
+Operator 1.IdleCost                         281.22    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .25009    
+Operator 3.BusyCost                         149.33    
+Operator 3.IdleCost                         268.68    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         597.14    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         874.90    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      874.90    
+All Resources.BusyCost                      874.90    
+All Resources.IdleCost                      549.91    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1424.8    
+System.TotalCost                            1424.8    
+System.NumberOut                            150.00    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 5 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 11.499018 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 1.0580     (Insuf)    .09114     2.0671         50    
+Server 3.TotalTimePerEntity                 1.3498     (Insuf)    .07480     2.3686         50    
+Server 2.TotalTimePerEntity                 5.8372     (Insuf)    .33227     11.187         50    
+Server 1.TotalCostPerEntity                 2.5473     (Insuf)    .58546     8.4856         50    
+Server 3.TotalCostPerEntity                 2.8294     (Insuf)    .85805     11.326         50    
+Server 2.TotalCostPerEntity                 11.499     (Insuf)    1.6718     40.302         50    
+Server 1.VATimePerEntity                    .05095     (Insuf)    .01171     .16971         50    
+Server 3.VATimePerEntity                    .05659     (Insuf)    .01716     .22652         50    
+Server 2.VATimePerEntity                    .22998     (Insuf)    .03344     .80605         50    
+Server 1.VACostPerEntity                    2.5473     (Insuf)    .58546     8.4856         50    
+Server 3.VACostPerEntity                    2.8294     (Insuf)    .85805     11.326         50    
+Server 2.VACostPerEntity                    11.499     (Insuf)    1.6718     40.302         50    
+Server 1.WaitTimePerEntity                  1.0071     (Insuf)    .00000     2.0152         50    
+Server 3.WaitTimePerEntity                  1.2932     (Insuf)    .00000     2.3451         50    
+Server 2.WaitTimePerEntity                  5.6072     (Insuf)    .00000     10.861         50    
+LPG.VATime                                  .22998     (Insuf)    .03344     .80605         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                5.6072     (Insuf)    .00000     10.861         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               5.8372     (Insuf)    .33227     11.187         50    
+LPG.VACost                                  11.499     (Insuf)    1.6718     40.302         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               11.499     (Insuf)    1.6718     40.302         50    
+Petrol.VATime                               .05095     (Insuf)    .01171     .16971         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             1.0071     (Insuf)    .00000     2.0152         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            1.0580     (Insuf)    .09114     2.0671         50    
+Petrol.VACost                               2.5473     (Insuf)    .58546     8.4856         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.5473     (Insuf)    .58546     8.4856         50    
+CNG.VATime                                  .05659     (Insuf)    .01716     .22652         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.2932     (Insuf)    .00000     2.3451         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.3498     (Insuf)    .07480     2.3686         50    
+CNG.VACost                                  2.8294     (Insuf)    .85805     11.326         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               2.8294     (Insuf)    .85805     11.326         50    
+Server 1.Queue.WaitingTime                  1.0071     (Insuf)    .00000     2.0152         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.2932     (Insuf)    .00000     2.3451         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  5.6072     (Insuf)    .00000     10.861         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     25.381     (Insuf)    .00000     50.000     .00000    
+Petrol.WIP                                  4.6007     (Insuf)    .00000     41.000     .00000    
+CNG.WIP                                     5.8691     (Insuf)    .00000     45.000     .00000    
+Operator 1.NumberBusy                       .22153     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .22153     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .24606     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .24606     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                4.3792     (Insuf)    .00000     40.000     .00000    
+Server 3.Queue.NumberInQueue                5.6231     (Insuf)    .00000     44.000     .00000    
+Server 2.Queue.NumberInQueue                24.381     (Insuf)    .00000     49.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      127.36    
+Server 3 Accum VA Cost                      141.47    
+Server 2 Accum VA Cost                      574.95    
+Server 1 Accum VA Time                      2.5473    
+Server 3 Accum VA Time                      2.8294    
+Server 2 Accum VA Time                      11.499    
+Server 1 Total Accum Time                   52.904    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   67.489    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   291.85    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    50.356    
+Server 3 Accum Wait Time                    64.660    
+Server 2 Accum Wait Time                    280.36    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   127.36    
+Server 3 Total Accum Cost                   141.47    
+Server 2 Total Accum Cost                   574.95    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .22153    
+Operator 1.BusyCost                         127.36    
+Operator 1.IdleCost                         268.54    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .24606    
+Operator 3.BusyCost                         141.47    
+Operator 3.IdleCost                         260.08    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         574.95    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         843.79    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      843.79    
+All Resources.BusyCost                      843.79    
+All Resources.IdleCost                      528.63    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1372.4    
+System.TotalCost                            1372.4    
+System.NumberOut                            150.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 6 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 12.793356 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 .97403     (Insuf)    .06910     1.9265         50    
+Server 3.TotalTimePerEntity                 1.2632     (Insuf)    .05520     2.2701         50    
+Server 2.TotalTimePerEntity                 6.7917     (Insuf)    .45337     12.193         50    
+Server 1.TotalCostPerEntity                 2.4380     (Insuf)    .62160     9.1733         50    
+Server 3.TotalCostPerEntity                 2.7827     (Insuf)    .91166     15.362         50    
+Server 2.TotalCostPerEntity                 12.793     (Insuf)    1.7515     64.988         50    
+Server 1.VATimePerEntity                    .04876     (Insuf)    .01243     .18347         50    
+Server 3.VATimePerEntity                    .05565     (Insuf)    .01823     .30726         50    
+Server 2.VATimePerEntity                    .25587     (Insuf)    .03503     1.2997         50    
+Server 1.VACostPerEntity                    2.4380     (Insuf)    .62160     9.1733         50    
+Server 3.VACostPerEntity                    2.7827     (Insuf)    .91166     15.362         50    
+Server 2.VACostPerEntity                    12.793     (Insuf)    1.7515     64.988         50    
+Server 1.WaitTimePerEntity                  .92527     (Insuf)    .00000     1.9066         50    
+Server 3.WaitTimePerEntity                  1.2075     (Insuf)    .00000     2.2030         50    
+Server 2.WaitTimePerEntity                  6.5359     (Insuf)    .00000     12.101         50    
+LPG.VATime                                  .25587     (Insuf)    .03503     1.2997         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                6.5359     (Insuf)    .00000     12.101         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               6.7917     (Insuf)    .45337     12.193         50    
+LPG.VACost                                  12.793     (Insuf)    1.7515     64.988         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               12.793     (Insuf)    1.7515     64.988         50    
+Petrol.VATime                               .04876     (Insuf)    .01243     .18347         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .92527     (Insuf)    .00000     1.9066         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            .97403     (Insuf)    .06910     1.9265         50    
+Petrol.VACost                               2.4380     (Insuf)    .62160     9.1733         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.4380     (Insuf)    .62160     9.1733         50    
+CNG.VATime                                  .05565     (Insuf)    .01823     .30726         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.2075     (Insuf)    .00000     2.2030         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.2632     (Insuf)    .05520     2.2701         50    
+CNG.VACost                                  2.7827     (Insuf)    .91166     15.362         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               2.7827     (Insuf)    .91166     15.362         50    
+Server 1.Queue.WaitingTime                  .92527     (Insuf)    .00000     1.9066         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.2075     (Insuf)    .00000     2.2030         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  6.5359     (Insuf)    .00000     12.101         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     26.544     (Insuf)    .00000     49.000     .00000    
+Petrol.WIP                                  3.8067     (Insuf)    .00000     38.000     .00000    
+CNG.WIP                                     4.9370     (Insuf)    .00000     43.000     .00000    
+Operator 1.NumberBusy                       .19057     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .19057     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .21752     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .21752     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                3.6161     (Insuf)    .00000     37.000     .00000    
+Server 3.Queue.NumberInQueue                4.7195     (Insuf)    .00000     42.000     .00000    
+Server 2.Queue.NumberInQueue                25.544     (Insuf)    .00000     48.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      121.90    
+Server 3 Accum VA Cost                      139.13    
+Server 2 Accum VA Cost                      639.66    
+Server 1 Accum VA Time                      2.4380    
+Server 3 Accum VA Time                      2.7827    
+Server 2 Accum VA Time                      12.793    
+Server 1 Total Accum Time                   48.701    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   63.161    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   339.58    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    46.263    
+Server 3 Accum Wait Time                    60.378    
+Server 2 Accum Wait Time                    326.79    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   121.90    
+Server 3 Total Accum Cost                   139.13    
+Server 2 Total Accum Cost                   639.66    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .19057    
+Operator 1.BusyCost                         121.90    
+Operator 1.IdleCost                         310.66    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .21752    
+Operator 3.BusyCost                         139.13    
+Operator 3.IdleCost                         300.31    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         639.66    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         900.70    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      900.70    
+All Resources.BusyCost                      900.70    
+All Resources.IdleCost                      610.97    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1511.6    
+System.TotalCost                            1511.6    
+System.NumberOut                            150.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 7 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 13.564555 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 1.0678     (Insuf)    .07809     1.9507         50    
+Server 3.TotalTimePerEntity                 1.6709     (Insuf)    .12509     3.3979         50    
+Server 2.TotalTimePerEntity                 6.9970     (Insuf)    1.1514     13.003         50    
+Server 1.TotalCostPerEntity                 2.5085     (Insuf)    .87139     7.1538         50    
+Server 3.TotalCostPerEntity                 3.8613     (Insuf)    .88786     14.283         50    
+Server 2.TotalCostPerEntity                 13.564     (Insuf)    1.9909     57.574         50    
+Server 1.VATimePerEntity                    .05017     (Insuf)    .01743     .14308         50    
+Server 3.VATimePerEntity                    .07723     (Insuf)    .01776     .28568         50    
+Server 2.VATimePerEntity                    .27129     (Insuf)    .03982     1.1514         50    
+Server 1.VACostPerEntity                    2.5085     (Insuf)    .87139     7.1538         50    
+Server 3.VACostPerEntity                    3.8613     (Insuf)    .88786     14.283         50    
+Server 2.VACostPerEntity                    13.564     (Insuf)    1.9909     57.574         50    
+Server 1.WaitTimePerEntity                  1.0177     (Insuf)    .00000     1.8843         50    
+Server 3.WaitTimePerEntity                  1.5937     (Insuf)    .00000     3.3234         50    
+Server 2.WaitTimePerEntity                  6.7257     (Insuf)    .00000     12.417         50    
+LPG.VATime                                  .27129     (Insuf)    .03982     1.1514         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                6.7257     (Insuf)    .00000     12.417         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               6.9970     (Insuf)    1.1514     13.003         50    
+LPG.VACost                                  13.564     (Insuf)    1.9909     57.574         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               13.564     (Insuf)    1.9909     57.574         50    
+Petrol.VATime                               .05017     (Insuf)    .01743     .14308         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             1.0177     (Insuf)    .00000     1.8843         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            1.0678     (Insuf)    .07809     1.9507         50    
+Petrol.VACost                               2.5085     (Insuf)    .87139     7.1538         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.5085     (Insuf)    .87139     7.1538         50    
+CNG.VATime                                  .07723     (Insuf)    .01776     .28568         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.5937     (Insuf)    .00000     3.3234         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.6709     (Insuf)    .12509     3.3979         50    
+CNG.VACost                                  3.8613     (Insuf)    .88786     14.283         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               3.8613     (Insuf)    .88786     14.283         50    
+Server 1.Queue.WaitingTime                  1.0177     (Insuf)    .00000     1.8843         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.5937     (Insuf)    .00000     3.3234         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  6.7257     (Insuf)    .00000     12.417         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     25.791     (Insuf)    .00000     50.000     .00000    
+Petrol.WIP                                  3.9363     (Insuf)    .00000     43.000     .00000    
+CNG.WIP                                     6.1592     (Insuf)    .00000     47.000     .00000    
+Operator 1.NumberBusy                       .18493     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .18493     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .28466     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .28466     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                3.7513     (Insuf)    .00000     42.000     .00000    
+Server 3.Queue.NumberInQueue                5.8745     (Insuf)    .00000     46.000     .00000    
+Server 2.Queue.NumberInQueue                24.791     (Insuf)    .00000     49.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      125.42    
+Server 3 Accum VA Cost                      193.06    
+Server 2 Accum VA Cost                      678.22    
+Server 1 Accum VA Time                      2.5085    
+Server 3 Accum VA Time                      3.8613    
+Server 2 Accum VA Time                      13.564    
+Server 1 Total Accum Time                   53.394    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   83.547    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   349.85    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    50.885    
+Server 3 Accum Wait Time                    79.686    
+Server 2 Accum Wait Time                    336.28    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   125.42    
+Server 3 Total Accum Cost                   193.06    
+Server 2 Total Accum Cost                   678.22    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .18493    
+Operator 1.BusyCost                         125.42    
+Operator 1.IdleCost                         331.68    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .28466    
+Operator 3.BusyCost                         193.06    
+Operator 3.IdleCost                         291.09    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         678.22    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         996.72    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      996.72    
+All Resources.BusyCost                      996.72    
+All Resources.IdleCost                      622.77    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1619.4    
+System.TotalCost                            1619.4    
+System.NumberOut                            150.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 8 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 14.75275 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 1.0030     (Insuf)    .02039     1.8561         50    
+Server 3.TotalTimePerEntity                 1.1271     (Insuf)    .02821     2.2232         50    
+Server 2.TotalTimePerEntity                 7.6324     (Insuf)    .42397     14.011         50    
+Server 1.TotalCostPerEntity                 2.4443     (Insuf)    .47194     6.5134         50    
+Server 3.TotalCostPerEntity                 3.0438     (Insuf)    .88270     11.153         50    
+Server 2.TotalCostPerEntity                 14.752     (Insuf)    1.6995     45.460         50    
+Server 1.VATimePerEntity                    .04889     (Insuf)    .00944     .13027         50    
+Server 3.VATimePerEntity                    .06088     (Insuf)    .01765     .22307         50    
+Server 2.VATimePerEntity                    .29505     (Insuf)    .03399     .90921         50    
+Server 1.VACostPerEntity                    2.4443     (Insuf)    .47194     6.5134         50    
+Server 3.VACostPerEntity                    3.0438     (Insuf)    .88270     11.153         50    
+Server 2.VACostPerEntity                    14.752     (Insuf)    1.6995     45.460         50    
+Server 1.WaitTimePerEntity                  .95414     (Insuf)    .00000     1.8108         50    
+Server 3.WaitTimePerEntity                  1.0662     (Insuf)    .00000     2.1628         50    
+Server 2.WaitTimePerEntity                  7.3374     (Insuf)    .00000     13.957         50    
+LPG.VATime                                  .29505     (Insuf)    .03399     .90921         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                7.3374     (Insuf)    .00000     13.957         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               7.6324     (Insuf)    .42397     14.011         50    
+LPG.VACost                                  14.752     (Insuf)    1.6995     45.460         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               14.752     (Insuf)    1.6995     45.460         50    
+Petrol.VATime                               .04889     (Insuf)    .00944     .13027         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .95414     (Insuf)    .00000     1.8108         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            1.0030     (Insuf)    .02039     1.8561         50    
+Petrol.VACost                               2.4443     (Insuf)    .47194     6.5134         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.4443     (Insuf)    .47194     6.5134         50    
+CNG.VATime                                  .06088     (Insuf)    .01765     .22307         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.0662     (Insuf)    .00000     2.1628         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.1271     (Insuf)    .02821     2.2232         50    
+CNG.VACost                                  3.0438     (Insuf)    .88270     11.153         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               3.0438     (Insuf)    .88270     11.153         50    
+Server 1.Queue.WaitingTime                  .95414     (Insuf)    .00000     1.8108         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.0662     (Insuf)    .00000     2.1628         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  7.3374     (Insuf)    .00000     13.957         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     25.867     (Insuf)    .00000     48.000     .00000    
+Petrol.WIP                                  3.3994     (Insuf)    .00000     38.000     .00000    
+CNG.WIP                                     3.8199     (Insuf)    .00000     38.000     .00000    
+Operator 1.NumberBusy                       .16568     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .16568     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .20632     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .20632     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                3.2337     (Insuf)    .00000     37.000     .00000    
+Server 3.Queue.NumberInQueue                3.6136     (Insuf)    .00000     37.000     .00000    
+Server 2.Queue.NumberInQueue                24.867     (Insuf)    .00000     47.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      122.21    
+Server 3 Accum VA Cost                      152.18    
+Server 2 Accum VA Cost                      737.63    
+Server 1 Accum VA Time                      2.4443    
+Server 3 Accum VA Time                      3.0438    
+Server 2 Accum VA Time                      14.752    
+Server 1 Total Accum Time                   50.151    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   56.355    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   381.62    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    47.706    
+Server 3 Accum Wait Time                    53.311    
+Server 2 Accum Wait Time                    366.87    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   122.21    
+Server 3 Total Accum Cost                   152.18    
+Server 2 Total Accum Cost                   737.63    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .16568    
+Operator 1.BusyCost                         122.21    
+Operator 1.IdleCost                         369.25    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .20632    
+Operator 3.BusyCost                         152.18    
+Operator 3.IdleCost                         351.26    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         737.63    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         1012.0    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      1012.0    
+All Resources.BusyCost                      1012.0    
+All Resources.IdleCost                      720.52    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1732.5    
+System.TotalCost                            1732.5    
+System.NumberOut                            150.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 9 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 15.520154 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 1.3009     (Insuf)    .10297     2.4933         50    
+Server 3.TotalTimePerEntity                 1.3408     (Insuf)    .05088     2.3637         50    
+Server 2.TotalTimePerEntity                 7.7273     (Insuf)    .07406     15.043         50    
+Server 1.TotalCostPerEntity                 2.8148     (Insuf)    .86625     7.0091         50    
+Server 3.TotalCostPerEntity                 2.9853     (Insuf)    .91811     11.156         50    
+Server 2.TotalCostPerEntity                 15.520     (Insuf)    2.2930     75.208         50    
+Server 1.VATimePerEntity                    .05630     (Insuf)    .01732     .14018         50    
+Server 3.VATimePerEntity                    .05971     (Insuf)    .01836     .22312         50    
+Server 2.VATimePerEntity                    .31040     (Insuf)    .04586     1.5041         50    
+Server 1.VACostPerEntity                    2.8148     (Insuf)    .86625     7.0091         50    
+Server 3.VACostPerEntity                    2.9853     (Insuf)    .91811     11.156         50    
+Server 2.VACostPerEntity                    15.520     (Insuf)    2.2930     75.208         50    
+Server 1.WaitTimePerEntity                  1.2446     (Insuf)    .00000     2.4663         50    
+Server 3.WaitTimePerEntity                  1.2811     (Insuf)    .00000     2.3122         50    
+Server 2.WaitTimePerEntity                  7.4169     (Insuf)    .00000     14.755         50    
+LPG.VATime                                  .31040     (Insuf)    .04586     1.5041         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                7.4169     (Insuf)    .00000     14.755         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               7.7273     (Insuf)    .07406     15.043         50    
+LPG.VACost                                  15.520     (Insuf)    2.2930     75.208         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               15.520     (Insuf)    2.2930     75.208         50    
+Petrol.VATime                               .05630     (Insuf)    .01732     .14018         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             1.2446     (Insuf)    .00000     2.4663         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            1.3009     (Insuf)    .10297     2.4933         50    
+Petrol.VACost                               2.8148     (Insuf)    .86625     7.0091         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.8148     (Insuf)    .86625     7.0091         50    
+CNG.VATime                                  .05971     (Insuf)    .01836     .22312         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.2811     (Insuf)    .00000     2.3122         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.3408     (Insuf)    .05088     2.3637         50    
+CNG.VACost                                  2.9853     (Insuf)    .91811     11.156         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               2.9853     (Insuf)    .91811     11.156         50    
+Server 1.Queue.WaitingTime                  1.2446     (Insuf)    .00000     2.4663         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.2811     (Insuf)    .00000     2.3122         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  7.4169     (Insuf)    .00000     14.755         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     24.894     (Insuf)    .00000     49.000     .00000    
+Petrol.WIP                                  4.1911     (Insuf)    .00000     44.000     .00000    
+CNG.WIP                                     4.3198     (Insuf)    .00000     42.000     .00000    
+Operator 1.NumberBusy                       .18137     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .18137     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .19235     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .19235     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                4.0098     (Insuf)    .00000     43.000     .00000    
+Server 3.Queue.NumberInQueue                4.1274     (Insuf)    .00000     41.000     .00000    
+Server 2.Queue.NumberInQueue                23.894     (Insuf)    .00000     48.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      140.74    
+Server 3 Accum VA Cost                      149.26    
+Server 2 Accum VA Cost                      776.00    
+Server 1 Accum VA Time                      2.8148    
+Server 3 Accum VA Time                      2.9853    
+Server 2 Accum VA Time                      15.520    
+Server 1 Total Accum Time                   65.047    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   67.044    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   386.36    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    62.233    
+Server 3 Accum Wait Time                    64.059    
+Server 2 Accum Wait Time                    370.84    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   140.74    
+Server 3 Total Accum Cost                   149.26    
+Server 2 Total Accum Cost                   776.00    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .18137    
+Operator 1.BusyCost                         140.74    
+Operator 1.IdleCost                         381.15    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .19235    
+Operator 3.BusyCost                         149.26    
+Operator 3.IdleCost                         376.04    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         776.00    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         1066.0    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      1066.0    
+All Resources.BusyCost                      1066.0    
+All Resources.IdleCost                      757.20    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1823.2    
+System.TotalCost                            1823.2    
+System.NumberOut                            150.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                                user
+
+                                  Summary for Replication 10 of 10
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+Replication ended at time      : 14.069758 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Server 1.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.WaitCostPerEntity                  .00000     (Insuf)    .00000     .00000         50    
+Server 1.TotalTimePerEntity                 .93171     (Insuf)    .03870     1.8574         50    
+Server 3.TotalTimePerEntity                 1.2230     (Insuf)    .07583     2.3784         50    
+Server 2.TotalTimePerEntity                 7.2208     (Insuf)    .05614     13.654         50    
+Server 1.TotalCostPerEntity                 2.3853     (Insuf)    .69486     6.7082         50    
+Server 3.TotalCostPerEntity                 2.9357     (Insuf)    .88289     10.289         50    
+Server 2.TotalCostPerEntity                 14.069     (Insuf)    1.7430     52.753         50    
+Server 1.VATimePerEntity                    .04771     (Insuf)    .01390     .13417         50    
+Server 3.VATimePerEntity                    .05872     (Insuf)    .01766     .20580         50    
+Server 2.VATimePerEntity                    .28140     (Insuf)    .03486     1.0550         50    
+Server 1.VACostPerEntity                    2.3853     (Insuf)    .69486     6.7082         50    
+Server 3.VACostPerEntity                    2.9357     (Insuf)    .88289     10.289         50    
+Server 2.VACostPerEntity                    14.069     (Insuf)    1.7430     52.753         50    
+Server 1.WaitTimePerEntity                  .88400     (Insuf)    .00000     1.7951         50    
+Server 3.WaitTimePerEntity                  1.1643     (Insuf)    .00000     2.2783         50    
+Server 2.WaitTimePerEntity                  6.9394     (Insuf)    .00000     13.423         50    
+LPG.VATime                                  .28140     (Insuf)    .03486     1.0550         50    
+LPG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitTime                                6.9394     (Insuf)    .00000     13.423         50    
+LPG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalTime                               7.2208     (Insuf)    .05614     13.654         50    
+LPG.VACost                                  14.069     (Insuf)    1.7430     52.753         50    
+LPG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+LPG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+LPG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+LPG.TotalCost                               14.069     (Insuf)    1.7430     52.753         50    
+Petrol.VATime                               .04771     (Insuf)    .01390     .13417         50    
+Petrol.NVATime                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitTime                             .88400     (Insuf)    .00000     1.7951         50    
+Petrol.TranTime                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherTime                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalTime                            .93171     (Insuf)    .03870     1.8574         50    
+Petrol.VACost                               2.3853     (Insuf)    .69486     6.7082         50    
+Petrol.NVACost                              .00000     (Insuf)    .00000     .00000         50    
+Petrol.WaitCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.TranCost                             .00000     (Insuf)    .00000     .00000         50    
+Petrol.OtherCost                            .00000     (Insuf)    .00000     .00000         50    
+Petrol.TotalCost                            2.3853     (Insuf)    .69486     6.7082         50    
+CNG.VATime                                  .05872     (Insuf)    .01766     .20580         50    
+CNG.NVATime                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitTime                                1.1643     (Insuf)    .00000     2.2783         50    
+CNG.TranTime                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherTime                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalTime                               1.2230     (Insuf)    .07583     2.3784         50    
+CNG.VACost                                  2.9357     (Insuf)    .88289     10.289         50    
+CNG.NVACost                                 .00000     (Insuf)    .00000     .00000         50    
+CNG.WaitCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.TranCost                                .00000     (Insuf)    .00000     .00000         50    
+CNG.OtherCost                               .00000     (Insuf)    .00000     .00000         50    
+CNG.TotalCost                               2.9357     (Insuf)    .88289     10.289         50    
+Server 1.Queue.WaitingTime                  .88400     (Insuf)    .00000     1.7951         50    
+Server 1.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 3.Queue.WaitingTime                  1.1643     (Insuf)    .00000     2.2783         50    
+Server 3.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+Server 2.Queue.WaitingTime                  6.9394     (Insuf)    .00000     13.423         50    
+Server 2.Queue.WaitingCost                  .00000     (Insuf)    .00000     .00000         50    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+LPG.WIP                                     25.660     (Insuf)    .00000     49.000     .00000    
+Petrol.WIP                                  3.3110     (Insuf)    .00000     41.000     .00000    
+CNG.WIP                                     4.3463     (Insuf)    .00000     41.000     .00000    
+Operator 1.NumberBusy                       .16954     (Insuf)    .00000     1.0000     .00000    
+Operator 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 1.Utilization                      .16954     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberBusy                       .20866     (Insuf)    .00000     1.0000     .00000    
+Operator 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 3.Utilization                      .20866     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberBusy                       1.0000     (Insuf)    .00000     1.0000     .00000    
+Operator 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operator 2.Utilization                      1.0000     (Insuf)    .00000     1.0000     .00000    
+Server 1.Queue.NumberInQueue                3.1414     (Insuf)    .00000     40.000     .00000    
+Server 3.Queue.NumberInQueue                4.1376     (Insuf)    .00000     40.000     .00000    
+Server 2.Queue.NumberInQueue                24.660     (Insuf)    .00000     48.000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Server 1 Accum VA Cost                      119.26    
+Server 3 Accum VA Cost                      146.78    
+Server 2 Accum VA Cost                      703.48    
+Server 1 Accum VA Time                      2.3853    
+Server 3 Accum VA Time                      2.9357    
+Server 2 Accum VA Time                      14.069    
+Server 1 Total Accum Time                   46.585    
+Server 1 Number Out                         50.000    
+Server 3 Total Accum Time                   61.152    
+Server 3 Number Out                         50.000    
+Server 2 Total Accum Time                   361.04    
+Server 2 Number Out                         50.000    
+Server 1 Number In                          50.000    
+Server 3 Number In                          50.000    
+Server 2 Number In                          50.000    
+Server 1 Accum Wait Time                    44.199    
+Server 3 Accum Wait Time                    58.216    
+Server 2 Accum Wait Time                    346.97    
+Server 1 Accum Wait Cost                    .00000    
+Server 3 Accum Wait Cost                    .00000    
+Server 2 Accum Wait Cost                    .00000    
+Server 1 Total Accum Cost                   119.26    
+Server 3 Total Accum Cost                   146.78    
+Server 2 Total Accum Cost                   703.48    
+LPG.NumberIn                                50.000    
+LPG.NumberOut                               50.000    
+Petrol.NumberIn                             50.000    
+Petrol.NumberOut                            50.000    
+CNG.NumberIn                                50.000    
+CNG.NumberOut                               50.000    
+Operator 1.NumberSeized                     50.000    
+Operator 1.ScheduledUtilization             .16954    
+Operator 1.BusyCost                         119.26    
+Operator 1.IdleCost                         350.53    
+Operator 1.UsageCost                        .00000    
+Operator 3.NumberSeized                     50.000    
+Operator 3.ScheduledUtilization             .20866    
+Operator 3.BusyCost                         146.78    
+Operator 3.IdleCost                         334.01    
+Operator 3.UsageCost                        .00000    
+Operator 2.NumberSeized                     50.000    
+Operator 2.ScheduledUtilization             1.0000    
+Operator 2.BusyCost                         703.48    
+Operator 2.IdleCost                         .00000    
+Operator 2.UsageCost                        .00000    
+All Entities.VACost                         969.54    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      969.54    
+All Resources.BusyCost                      969.54    
+All Resources.IdleCost                      684.55    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     1654.0    
+System.TotalCost                            1654.0    
+System.NumberOut                            150.00    
+
+
+                                      ARENA Simulation Results
+                                                user
+
+                                 Output Summary for 10 Replications
+
+Project: Refuling Station                                            Run execution date : 9/20/2025
+Analyst: FATIHA                                                      Model revision date: 9/20/2025
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Server 1 Accum VA Cost                      123.88     5.2066     114.43     140.74     10
+Server 3 Accum VA Cost                      155.57     11.591     139.13     193.06     10
+Server 2 Accum VA Cost                      681.25     58.603     569.77     778.34     10
+Server 1 Accum VA Time                      2.4777     .10413     2.2887     2.8148     10
+Server 3 Accum VA Time                      3.1115     .23183     2.7827     3.8613     10
+Server 2 Accum VA Time                      13.625     1.1720     11.395     15.566     10
+Server 1 Total Accum Time                   50.827     4.7090     42.734     65.047     10
+Server 1 Number Out                         50.000     .00000     50.000     50.000     10
+Server 3 Total Accum Time                   64.892     5.6343     55.018     83.547     10
+Server 3 Number Out                         50.000     .00000     50.000     50.000     10
+Server 2 Total Accum Time                   349.05     26.963     283.50     386.36     10
+Server 2 Number Out                         50.000     .00000     50.000     50.000     10
+Server 1 Number In                          50.000     .00000     50.000     50.000     10
+Server 3 Number In                          50.000     .00000     50.000     50.000     10
+Server 2 Number In                          50.000     .00000     50.000     50.000     10
+Server 1 Accum Wait Time                    48.349     4.6115     40.321     62.233     10
+Server 3 Accum Wait Time                    61.780     5.4790     51.910     79.686     10
+Server 2 Accum Wait Time                    335.43     25.840     272.11     370.84     10
+Server 1 Accum Wait Cost                    .00000     .00000     .00000     .00000     10
+Server 3 Accum Wait Cost                    .00000     .00000     .00000     .00000     10
+Server 2 Accum Wait Cost                    .00000     .00000     .00000     .00000     10
+Server 1 Total Accum Cost                   123.88     5.2066     114.43     140.74     10
+Server 3 Total Accum Cost                   155.57     11.591     139.13     193.06     10
+Server 2 Total Accum Cost                   681.25     58.603     569.77     778.34     10
+LPG.NumberIn                                50.000     .00000     50.000     50.000     10
+LPG.NumberOut                               50.000     .00000     50.000     50.000     10
+Petrol.NumberIn                             50.000     .00000     50.000     50.000     10
+Petrol.NumberOut                            50.000     .00000     50.000     50.000     10
+CNG.NumberIn                                50.000     .00000     50.000     50.000     10
+CNG.NumberOut                               50.000     .00000     50.000     50.000     10
+Operator 1.NumberSeized                     50.000     .00000     50.000     50.000     10
+Operator 1.ScheduledUtilization             .18409     .01662     .15502     .22153     10
+Operator 1.BusyCost                         123.88     5.2066     114.43     140.74     10
+Operator 1.IdleCost                         334.42     34.686     268.54     394.61     10
+Operator 1.UsageCost                        .00000     .00000     .00000     .00000     10
+Operator 3.NumberSeized                     50.000     .00000     50.000     50.000     10
+Operator 3.ScheduledUtilization             .23076     .02265     .19235     .28466     10
+Operator 3.BusyCost                         155.57     11.591     139.13     193.06     10
+Operator 3.IdleCost                         315.40     34.119     248.47     376.04     10
+Operator 3.UsageCost                        .00000     .00000     .00000     .00000     10
+Operator 2.NumberSeized                     50.000     .00000     50.000     50.000     10
+Operator 2.ScheduledUtilization             1.0000     .00000     1.0000     1.0000     10
+Operator 2.BusyCost                         681.25     58.603     569.77     778.34     10
+Operator 2.IdleCost                         .00000     .00000     .00000     .00000     10
+Operator 2.UsageCost                        .00000     .00000     .00000     .00000     10
+All Entities.VACost                         960.72     63.511     839.86     1066.0     10
+All Entities.NVACost                        .00000     .00000     .00000     .00000     10
+All Entities.WaitCost                       .00000     .00000     .00000     .00000     10
+All Entities.TranCost                       .00000     .00000     .00000     .00000     10
+All Entities.OtherCost                      .00000     .00000     .00000     .00000     10
+All Entities.TotalCost                      960.72     63.511     839.86     1066.0     10
+All Resources.BusyCost                      960.72     63.511     839.86     1066.0     10
+All Resources.IdleCost                      649.82     68.340     521.67     768.38     10
+All Resources.UsageCost                     .00000     .00000     .00000     .00000     10
+All Resources.TotalCost                     1610.5     130.55     1361.5     1823.2     10
+System.TotalCost                            1610.5     130.55     1361.5     1823.2     10
+System.NumberOut                            150.00     .00000     150.00     150.00     10
+
+Simulation run time: 0.30 minutes.
+Simulation run complete.

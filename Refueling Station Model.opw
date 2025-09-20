@@ -1,0 +1,27 @@
+[RESOURCES]
+Operator 1
+Operator 3
+Operator 2
+[VARIABLES]
+Vehicle_Petrol.NumberOut
+Server 1.VACost
+Server 3.VACost
+Server 2.VACost
+Dispose.NumberOut
+Server 1.VATime
+Server 3.VATime
+Server 2.VATime
+Vehicle_LPG.NumberOut
+Vehicle_CNG.NumberOut
+Server 1.NumberOut
+Server 3.NumberOut
+Server 2.NumberOut
+Server 1.NumberIn
+Server 3.NumberIn
+Server 2.NumberIn
+Server 1.WaitTime
+Server 3.WaitTime
+Server 2.WaitTime
+Server 1.WaitCost
+Server 3.WaitCost
+Server 2.WaitCost
